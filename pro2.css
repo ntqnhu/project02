@@ -1,0 +1,499 @@
+.banner {
+  height: 800px;
+  background-image: url("https://static.yeah1music.net/uploads/33/2019/05/04/5cccfb9b3f0dd.jpg");
+  background-size: cover;
+}
+
+.banner .header {
+  padding-top: 20px;
+}
+
+.banner .header > p {
+  font-size: 35px;
+  color: white;
+  margin-left: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner .header .navbar > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner .header .navbar > ul > li {
+  margin-left: 20px;
+  position: relative;
+}
+
+.banner .header .navbar > ul > li > a {
+  font-size: 15px;
+  color: white;
+}
+
+.banner .header .navbar > ul > li .dropdown {
+  background: #666;
+  position: absolute;
+  width: 150px;
+  display: none;
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+}
+
+.banner .header .navbar > ul > li .dropdown a2 {
+  color: white;
+  font-size: 15px;
+  padding: 7px 14px;
+  display: block;
+}
+
+.banner .header .navbar > ul > li:hover .dropdown {
+  display: block;
+  -webkit-animation: fadein 0.5s forwards;
+          animation: fadein 0.5s forwards;
+}
+
+.banner .header .navbar > ul > li:hover a {
+  color: #6666;
+}
+
+.banner .header .navbar > ul > li:hover i {
+  color: #6666;
+}
+
+.banner .header .navbar > ul i {
+  color: white;
+  font-size: 15px;
+}
+
+.banner .header .bright {
+  margin-right: 30px;
+}
+
+.banner .header .bright ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner .header .bright ul li i {
+  color: white;
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+.banner .title {
+  width: 390px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.banner .title h1 {
+  font-size: 4.5em;
+  color: #ff0779;
+  font-weight: bolder;
+  line-height: 71px;
+  letter-spacing: 9px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner .title p {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.body1 .container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.body1 .container .item1 {
+  padding: 40px 60px;
+}
+
+.body1 .container .item1 h2 {
+  font-size: 44px;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 400px;
+  text-align: center;
+  margin-right: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+.body1 .container .item1 p {
+  width: 800px;
+  font-size: 13px;
+  color: #666;
+}
+
+.body1 .container .item2 .table {
+  width: 270px;
+  border: solid 3px #fbfbfb;
+}
+
+.body1 .container .item2 .table i {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: #ffc107;
+}
+
+.body1 .container .item2 .table h3 {
+  font-size: 23px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #545454;
+  font-family: 'Playfair Display', serif;
+}
+
+.body1 .container .item2 .table p {
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.body2 {
+  background: #fbfbfb;
+}
+
+.body2 .container {
+  padding-bottom: 70px;
+}
+
+.body2 .container .item1 {
+  padding: 60px 30px;
+}
+
+.body2 .container .item1 h2 {
+  font-size: 40px;
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 400px;
+  text-align: center;
+  margin-right: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+.body2 .container .item1 p {
+  width: 800px;
+  font-size: 13px;
+  color: #666;
+}
+
+.body2 .container .item2 .list {
+  width: 400px;
+}
+
+.body2 .container .item2 .list .item h3 {
+  font-size: 23px;
+  color: #545454;
+  font-family: 'Playfair Display', serif;
+}
+
+.body2 .container .item2 .list .item .con {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.body2 .container .item2 .list .item .con i {
+  font-size: 45px;
+  color: #ffc107;
+  text-align: center;
+}
+
+.body2 .container .item2 .list .item .con p {
+  width: 300px;
+  font-size: 13px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.body2 .container .item2 .img {
+  width: 330px;
+  height: 500px;
+  background-image: url("https://demo.w3layouts.com/demos_new/template_demo/23-03-2019/hair_spa-demo_Free/766761904/web/images/s1.jpg");
+  background-size: cover;
+}
+
+.body3 .container {
+  padding-bottom: 100px;
+}
+
+.body3 .container .item {
+  padding: 60px 30px;
+}
+
+.body3 .container .item h2 {
+  font-size: 40px;
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 400px;
+  text-align: center;
+  margin-right: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+.body3 .container .item p {
+  width: 800px;
+  font-size: 13px;
+  color: #666;
+}
+
+.body3 .backg1 {
+  padding-left: 400px;
+}
+
+.body3 .backg1 .item1 {
+  width: 430px;
+  border: solid 3px #fbfbfb;
+  background: white;
+  -webkit-transform: translate(-250px, -150px);
+          transform: translate(-250px, -150px);
+}
+
+.body3 .backg1 .item1 h1 {
+  width: 80px;
+  padding: 5px;
+  margin-left: 20px;
+  background: #ff0779;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.body3 .backg1 .item1 h3 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #545454;
+  font-family: 'Playfair Display', serif;
+}
+
+.body3 .backg1 .item1 p {
+  font-size: 13px;
+  margin: 20px;
+  color: #666;
+}
+
+.body3 .backg1 .item1 a {
+  margin-left: 20px;
+}
+
+.body3 .backg1 .item1 a > p {
+  width: 110px;
+  color: #ff0779;
+  padding: 10px;
+  font-size: 15px;
+  border: solid 1px #666;
+}
+
+.body3 .backg1 .item3 {
+  width: 430px;
+  border: solid 3px #fbfbfb;
+  background: white;
+  -webkit-transform: translate(-250px, -100px);
+          transform: translate(-250px, -100px);
+}
+
+.body3 .backg1 .item3 h1 {
+  width: 80px;
+  padding: 5px;
+  margin-left: 20px;
+  background: #ff0779;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.body3 .backg1 .item3 h3 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #545454;
+}
+
+.body3 .backg1 .item3 p {
+  font-size: 13px;
+  margin: 20px;
+  color: #666;
+}
+
+.body3 .backg1 .item3 a {
+  margin-left: 20px;
+}
+
+.body3 .backg1 .item3 a > p {
+  width: 110px;
+  color: #ff0779;
+  padding: 10px;
+  font-size: 15px;
+  border: solid 1px #666;
+}
+
+.body3 .backg2 {
+  background-image: url("https://demo.w3layouts.com/demos_new/template_demo/23-03-2019/hair_spa-demo_Free/766761904/web/images/s3.jpg");
+  padding-left: 200px;
+  height: 450px;
+}
+
+.body3 .backg2 .item2 {
+  width: 430px;
+  border: solid 3px #fbfbfb;
+  background: white;
+  -webkit-transform: translate(0, -100px);
+          transform: translate(0, -100px);
+}
+
+.body3 .backg2 .item2 h1 {
+  width: 80px;
+  padding: 5px;
+  margin-left: 20px;
+  background: #ff0779;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.body3 .backg2 .item2 h3 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #545454;
+}
+
+.body3 .backg2 .item2 p {
+  font-size: 13px;
+  margin: 20px;
+  color: #666;
+}
+
+.body3 .backg2 .item2 a {
+  margin-left: 20px;
+}
+
+.body3 .backg2 .item2 a > p {
+  width: 110px;
+  color: #ff0779;
+  padding: 10px;
+  font-size: 15px;
+  border: solid 1px #666;
+}
+
+.body4 {
+  background: #000;
+  margin-top: 20px;
+}
+
+.body4 .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.body4 .container > p {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.body4 .container form .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  border-bottom: solid 1px white;
+}
+
+.body4 .container form .action input {
+  padding: 15px;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}
+
+.body4 .container form .action input::-webkit-input-placeholder {
+  color: #666;
+  font-size: 15px;
+}
+
+.body4 .container form .action > p {
+  color: white;
+  background: #ff0779;
+  padding: 10px;
+  margin-left: 10px;
+  width: 100px;
+  -webkit-transform: translateX(200px);
+          transform: translateX(200px);
+}
+
+.body4 .container .list {
+  margin-top: 50px;
+}
+
+.body4 .container .list .item {
+  width: 200px;
+}
+
+.body4 .container .list .item h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.body4 .container .list .item p {
+  color: #666666;
+}
+
+.body4 .container a i {
+  color: white;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.end {
+  padding: 20px 0px;
+  background: #8e8e8e;
+}
+
+.end > p {
+  text-align: center;
+  letter-spacing: 4px;
+  color: white;
+  font-size: 13px;
+}
+
+.end > p span {
+  color: #007bff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contain {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=pro2.css.map */
